@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'CascadiaCode';
-  src: url(/assets/fonts/CascadiaCode.ttf);
+  font-family: 'MorePerfectDOSVGA';
+  src: url(/assets/fonts/MorePerfectDOSVGA.ttf);
   display: swap;
 }
 
 * {
-  font-family: 'CascadiaCode', monospace;
+  font-family: 'MorePerfectDOSVGA', monospace;
 }
 
 html,

@@ -59,6 +59,14 @@ export const repo = async (args?: string[]): Promise<string> => {
   return 'Opening repository...';
 };
 
+export const instructions = (args: string[]): string => {
+  return 'instruccions aoeuaoeuoeu'
+}
+
+export const installation = (args?: string[]): string => {
+  return 'installation'
+}
+
 export const banner = (args?: string[]): string => {
   return `
 ███╗   ███╗██╗  ██╗████████╗████████╗███████╗██████╗
