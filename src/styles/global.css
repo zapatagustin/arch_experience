@@ -8,9 +8,24 @@
   display: swap;
 }
 
+@font-face {
+  font-family: 'IosevkaNerdFontMono';
+  src: url(/assets/fonts/IosevkaNerdFontMono.ttf);
+  display: swap;
+}
+
+/*
+@layer components {
+  .IosevkaFont {
+    font-family: 'IosevkaNerdFontMono', monospace;
+  }
+}
+
+/*
 * {
   font-family: 'MorePerfectDOSVGA', monospace;
 }
+*/
 
 html,
 body,

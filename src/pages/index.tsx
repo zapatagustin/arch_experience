@@ -3,8 +3,6 @@ import React from 'react';
 import { History } from '../components/history';
 import { Input } from '../components/input';
 import { useShell } from '../utils/shellProvider';
-import { useTheme } from '../utils/themeProvider';
-import config from '../../config.json';
 
 interface IndexPageProps {
   inputRef: React.MutableRefObject<HTMLInputElement>;
@@ -28,6 +26,9 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
       </Head>
 
       <div
+        style={{
+          fontFamily: 'MorePerfectDOSVGA',
+        }}
       >
         <div ref={containerRef} className="overflow-y-auto h-full">
           <History history={history} />
